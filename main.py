@@ -320,74 +320,74 @@ def day_1():
     m = random.choice(cases_4)
     match m:
         case 1:
-            print(f"{RESULT_D1_1}")
+            print(f"{lcl.RESULT_D1_1}")
             awns=int(input())
             match awns:
                 case 1:
                  e = -80
                  b = -70
                  a, c, d = (0,) * 3
-                 print(f"{DEPENDENT_1}")
+                 print(f"{lcl.DEPENDENT_1}")
                 case 2:
                  b = 70
                  a, c, d, e = (0,) * 4
-                 print(f"{RESULT_D1_2}")
+                 print(f"{lcl.RESULT_D1_2}")
         case 2:
-            print(f"{DEPENDENT_2}")
+            print(f"{lcl.DEPENDENT_2}")
             awns=int(input())
             match awns:
                 case 1:
                  a = 100
                  b = -80
                  e, c, d = (0,) * 3
-                 print(f"{RESULT_D2_1}")
+                 print(f"{lcl.RESULT_D2_1}")
                 case 2:
                  b = 100
                  a = -80
                  c, d, e = (0,) * 3
-                 print(f"{RESULT_D2_2}")
+                 print(f"{lcl.RESULT_D2_2}")
                 case 3:
                  b = 70
                  a = 70
                  c, d, e = (0,) * 3
-                 print(f"{RESULT_D2_3}")
+                 print(f"{lcl.RESULT_D2_3}")
         case 3:
-            print(f"{DEPENDENT_3}")
+            print(f"{lcl.DEPENDENT_3}")
             awns=int(input())
             match awns:
                 case 1:
                  a = 90
                  b,e, c, d = (0,) * 4
-                 print(f"{RESULT_D3_1}")
+                 print(f"{lcl.RESULT_D3_1}")
                 case 2:
                  a = -100
                  c, d, e,b = (0,) * 4
-                 print(f"{RESULT_D3_2}")
+                 print(f"{lcl.RESULT_D3_2}")
         case 4:
-            print(f"{DEPENDENT_4}")
+            print(f"{lcl.DEPENDENT_4}")
             awns=int(input())
             match awns:
                 case 1:
                  a = 100
                  e = -120
                  b, c, d = (0,) * 3
-                 print(f"{RESULT_D4_1}")
+                 print(f"{lcl.RESULT_D4_1}")
                 case 2:
                  a, c, d, e,b = (0,) * 5
-                 print(f"{RESULT_D4_2}")
+                 print(f"{lcl.RESULT_D4_2}")
         case 5:
-            print(f"{DEPENDENT_5}")
+            print(f"{lcl.DEPENDENT_5}")
             awns=int(input())
             match awns:
                 case 1:
                  d = 100
                  e = -90
                  b, c, a = (0,) * 3
-                 print(f"{RESULT_D5_1}")
+                 print(f"{lcl.RESULT_D5_1}")
                 case 2:
                  d = -50
                  a, c, e, b = (0,) * 4
-                 print(f"{RESULT_D5_2}")
+                 print(f"{lcl.RESULT_D5_2}")
     k = int(input())
     match k:
         case 1:

@@ -1247,8 +1247,8 @@ def day_3():
             lk = lk + c
             tchr = tchr + d
             cnd = cnd + e
-      print(f"{lcl.EXAM_END}")  
-       print(th, tsks, lk, tchr, cnd)
+    print(f"{lcl.EXAM_END}")
+    print(th, tsks, lk, tchr, cnd)
 def win():
     th, tsks, lk, tchr, cnd \
         = map(int, input(f"{lcl.RESULTS_1}").split())

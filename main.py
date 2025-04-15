@@ -1173,7 +1173,7 @@ def day_3():
                 case 1:
                     (th_1, tsks_1, lk_1,
                      tchr_1, cnd_1) = map(int,
-                    input(f"{lcl.DEPENDENT_EXAM_FO1_RES }"))
+                    input(f"{lcl.DEPENDENT_EXAM_FO1_RES }").split())
                     th_2= th_1
                     tsks_2 = tsks_1
                     lk_2 = lk_1-80
@@ -1197,7 +1197,7 @@ def day_3():
                   match n_1:
                     case 1:
                       (th_1, tsks_1, lk_1,
-                      tchr_1, cnd_1) = map(int,input(f"{lcl.DEPENDENT_EXAM_FI1_RES}"))
+                      tchr_1, cnd_1) = map(int,input(f"{lcl.DEPENDENT_EXAM_FI1_RES}").split())
                       th_2 = th_1+50
                       tsks_2 = tsks_1+50
                       lk_2 = lk_1+50
@@ -1210,7 +1210,7 @@ def day_3():
                       print(f"{lcl.DEPENDENT_EXAM_FI2_RES}")
                     case 2:
                         (th_1, tsks_1, lk_1,
-                         tchr_1, cnd_1) = map(int,input(f"{lcl.DEPENDENT_EXAM_FI3_RES}"))
+                         tchr_1, cnd_1) = map(int,input(f"{lcl.DEPENDENT_EXAM_FI3_RES}").split())
                         th_2 = th_1 - 50
                         tsks_2 = tsks_1 - 50
                         lk_2 = lk_1 - 50
